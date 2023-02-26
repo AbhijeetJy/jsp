@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>xyz</servlet-name>
+        <jsp-file>/input.html</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xyz</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+</web-app>
